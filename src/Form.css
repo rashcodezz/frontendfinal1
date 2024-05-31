@@ -1,0 +1,116 @@
+.form {
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.back-button {
+    padding: 6px 10px;
+    background-color: #87bdd8;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-right: 10px;
+}
+
+.back-button:hover {
+    background-color: #6091aa;
+}
+
+.form-header h2 {
+    margin: auto;
+    transform: translate(-15%, 0px);
+}
+
+.form-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    max-width: 350px;
+    margin: 10px 0;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+    height: 20px;
+    padding: 5px;
+    border-radius: 8px;
+    outline: none;
+    font-size: 15px;
+    border: 1px solid #5454547e;
+}
+
+.form-group select {
+    height: auto;
+}
+
+.form-group textarea {
+    height: auto;
+}
+
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus {
+    border: 1px solid #111111;
+}
+
+.form-group label {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.form-group button {
+    padding: 6px 10px;
+    background-color: #87bdd8;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.form-group button:hover {
+    background-color: #6091aa;
+}
+
+.form-group button:disabled:hover {
+    background-color: #87bdd8;
+}
+
+.submit-button {
+    width: 100%;
+    max-width: 350px;
+    padding: 6px 10px;
+    background-color: #87bdd8;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    height: 35px;
+    margin-top: 10px;
+}

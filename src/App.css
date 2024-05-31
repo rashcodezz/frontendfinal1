@@ -1,0 +1,147 @@
+h3 {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+p {
+  margin: 8px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.main-container{
+  height: 100vh;
+  padding: 0px 100px;
+}
+
+/* Main Page CSS */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: #fff;
+    max-width: 1000px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 35px;
+}
+
+.search input {
+  width: 100%;
+  padding: 5px;
+  padding-left: 10px;
+  height: 100%;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.add-button {
+  padding: 6px 10px;
+  background-color: #87bdd8;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  position: absolute;
+  right: 18px;
+  transition: all 0.3s ease-in-out;
+}
+
+.add-button:hover {
+  background-color: #6091aa;
+}
+
+.page-title{
+  font-size: 30px;
+  padding-top: 60px;
+  padding-bottom: 10px;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.todo-list {
+  width: 100%;
+  max-width: 1000px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.todo {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+  min-width: 100px;
+  max-width: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.todo-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.todo-action {
+  display: flex;
+  align-items: center;
+}
+
+.todo-action .button {
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 1000px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.todo-action .edit-button:hover {
+  background-color: #5a5c5d1c;
+}
+
+.todo-action .delete-button:hover {
+  background-color: #5a5c5d1c;
+}
+
+.todo-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  max-width: 240px;
+  overflow: hidden;
+}
+
+.todo-status {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.02rem;
+}
